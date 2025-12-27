@@ -67,7 +67,7 @@ const getProducts = async (query) => {
     .sort(sort)
     .limit(limit)
     .skip(offset);
-
+    
   return products;
 };
 
