@@ -1,6 +1,6 @@
 import { v2 as cloudinary } from "cloudinary";
 
-const CLOUDINARY_FOLDER = "mern-20250622";
+const CLOUDINARY_FOLDER = "walmart-ebay";
 
 async function uploadFile(files) {
   const uploadResults = [];
